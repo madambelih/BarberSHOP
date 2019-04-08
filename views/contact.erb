@@ -1,0 +1,20 @@
+ <form action="/contact" method="POST" role="form">
+
+  <div class="form-group">
+    <label>Ваше имя</label>
+    <input name="name" type="text" class="form-control" placeholder="Ваше имя" value="<%= @name %>">
+  </div>
+
+  <div class="form-group">
+    <label>Ваш телефон</label>
+    <input name="mail" type="text" class="form-control" placeholder="Ваш телефон" value="<%= @mail %>">
+  </div>
+
+  <div class="form-group">
+    <label>Когда вас ждать?</label>
+    <input name="body" type="text" class="form-control" placeholder="Введите дату и время" value="<%= @body %>">
+  </div>
+
+   <button type="submit" class="btn btn-primary">Записаться</button>
+
+</form>
